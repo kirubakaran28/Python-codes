@@ -7,9 +7,9 @@
 import tkinter as tk
 import pyjokes
 root=tk.Tk()
-root.geometry("600x300")
+root.geometry("800x300")
 root.title("Jokes")
-T = tk.Text(root,height=8,width =200)
+T = tk.Text(root,height=10,width =250)
 T.pack()
 
 def generatejoke():
